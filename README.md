@@ -2,9 +2,9 @@
 hi i'm sayuri!<br>
 i recently started learning angular and web dev in general @@<br>
 lang: 
-  - ts/js (somewhat comforting)
+  - ts/js (main)
   - c# (instantly died)
-  - html/css/sass (not pure, with angular directives, is new)
+  - html/css/sass (comforting)
 <br>
 oh, i also draw too, but i'm not good at it :)
 <!---
