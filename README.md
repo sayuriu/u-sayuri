@@ -4,7 +4,7 @@ i recently started learning angular and web dev in general @@<br>
 lang: 
   - ts/js (main)
   - c# (instantly died)
-  - html/css/sass (comforting)
+  - html/css/ssss (comforting but css is weird bro)
 <br>
 oh, i also draw too, but i'm not good at it :)
 <!---
