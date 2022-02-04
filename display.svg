@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+	<!-- <rect x="0" y="0" width="1200" height="800" fill="white" /> -->
+	<defs>
+		<style>
+			font-face {
+				font-family: JBMonoRegular;
+				src: url('./fonts/JetBrainsMono-Regular.ttf') format('truetype');
+			}
+		</style>
+	<defs>
+	<style>
+		@
+		@keyframes _animation {
+			from { transform: translateY(50px); }
+			to { transform: translateY(0px); }
+		}
+		div p {
+			transform: translateY(50px);
+			animation: _animation 1s ease-in-out forwards;
+			font-family: JBMonoRegular;
+		}
+		div p:hover {
+			font-family: JBMonoRegular;
+			color: red;
+		}
+	</style>
+	<foreignObject x="0" y="0" width="800" height="1200">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>This is a test</p>
+		</div>
+	</foreignObject>
+</svg>
