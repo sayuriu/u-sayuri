@@ -1,0 +1,25 @@
+<svg id="svg-main-1" viewBox="0 0 800 1200" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" fill="#060720">
+	<defs>
+		<style type="text/css">
+			@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css');
+			@font-face {
+				font-family: JBMonoRegular;
+				src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+			}
+		</style>
+	</defs>
+	<style>
+		@keyframes _animation {
+				from { transform: translateY(50px); }
+				to { transform: translateY(0px); }
+			}
+		text {
+				font-family: JBMonoRegular;
+				animation: _animation 1s ease-in-out infinite alternate;
+			}
+	</style>
+
+	<text dy="20" font-size="20" fill="yellow">
+		test
+	</text>
+</svg>

@@ -22,8 +22,8 @@ hi i'm sayuri!<br>i'm a cs student, recently got into the world of programming :
     </tr>
 </table>
 
-<p>
-    <img src="display.svg">
+<p align="center">
+    <img src="./svg/display.svg?sanitize=true" width="100%">
 </p>
 <!-- <body>
     <h2>header</h2>
