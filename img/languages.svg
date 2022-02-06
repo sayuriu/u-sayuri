@@ -53,7 +53,7 @@
 			}
 			.anim-fade-in {
 				opacity: 0;
-				animation: fade-in 0.5s var(--anim-func-forceful) calc(0.15s * var(--order)) forwards;
+				animation: fade-in 0.5s var(--anim-func-forceful) calc(var(--anim-init-delay, 0s) + 0.15s * var(--order)) forwards;
 			}
 			@keyframes slide-up {
 				from { transform: translateY(20px); }
@@ -61,7 +61,7 @@
 			}
 			.anim-slide-up {
 				transform: translateY(20px);
-				animation: slide-up 0.5s var(--anim-func-forceful) calc(0.08s * var(--order)) forwards;
+				animation: slide-up 0.5s var(--anim-func-forceful) calc(var(--anim-init-delay, 0s) + 0.08s * var(--order)) forwards;
 			}
 			@keyframes slide-right {
 				from { transform: translateX(-20px); }
@@ -69,7 +69,7 @@
 			}
 			.anim-slide-right {
 				transform: translateX(-20px);
-				animation: slide-right 0.5s var(--anim-func-forceful) calc(0.08s * var(--order)) forwards;
+				animation: slide-right 0.5s var(--anim-func-forceful) calc(var(--anim-init-delay, 0s) + 0.08s * var(--order)) forwards;
 			}
 			@keyframes spreadDU {
 				from { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); }
@@ -77,7 +77,7 @@
 			}
 			.anim-spreadDU {
 				clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
-				animation: spreadDU 0.5s var(--anim-func-forceful) calc(0.2s + 0.08s * var(--order)) forwards;
+				animation: spreadDU 0.5s var(--anim-func-forceful) calc(var(--anim-init-delay, 0s) + 0.2s + 0.08s * var(--order)) forwards;
 			}
 			.diagonal-cut-topright {
 				clip-path: polygon(0 0, 40% 0, 100% 60%, 100% 100%, 0 100%);
@@ -91,24 +91,24 @@
 		.language-group text {
 			transform: translateY(20px);
 			animation:
-				slide-up 0.5s var(--anim-func-slowdown) calc(0.5s + 0.08s * var(--order)) forwards;
+				slide-up 0.5s var(--anim-func-slowdown) calc(var(--anim-init-delay, 0s) + 0.5s + 0.08s * var(--order)) forwards;
 		}
 		text.language-sub {
-			animation-delay: calc(0.7s + 0.08s * var(--order));
+			animation-delay: calc(var(--anim-init-delay, 0s) + 0.7s + 0.08s * var(--order));
 		}
 		.proficient-indicator {
 			opacity: 0;
-			animation: fade-in 0.5s var(--anim-func-forceful) calc(0.9s + 0.12s * var(--order)) forwards;
+			animation: fade-in 0.5s var(--anim-func-forceful) calc(var(--anim-init-delay, 0s) + 0.9s + 0.12s * var(--order)) forwards;
 		}
 		.proficient-indicator#sub {
-			animation-delay: calc(1.1s + 0.1s * var(--order));
+			animation-delay: calc(var(--anim-init-delay, 0s) + 1.1s + 0.1s * var(--order));
 		}
 		.lang-arrow-langtolib {
 			transform: translateX(-20px);
 			opacity: 0;
 			animation:
-				fade-in 0.4s var(--anim-func-forceful) calc(0.5s + 0.12s * var(--order)) forwards,
-				slide-right 0.5s var(--anim-func-slowdown) calc(0.6s + 0.12s * var(--order)) forwards;
+				fade-in 0.4s var(--anim-func-forceful) calc(var(--anim-init-delay, 0s) + 0.5s + 0.12s * var(--order)) forwards,
+				slide-right 0.5s var(--anim-func-slowdown) calc(var(--anim-init-delay, 0s) + 0.6s + 0.12s * var(--order)) forwards;
 		}
 		#lang-icon-note {
 			animation:fade-in 0.4s var(--anim-func-forceful) 3.5s forwards;
