@@ -13,9 +13,15 @@ hi i'm sayuri!<br>i'm a cs student, recently got into the world of programming :
   <li display="inline">
     <font size="4">PRTS</font>
     <img src="./img/beta-badge.png" height="16" style="transform: translateY(1px)">
-    <font size="4"><i>(Current)</i>&MediumSpace;|</font>
     <font size="4"><a href="https://github.com/sayuriu/prts/tree/operators-page">Latest branch</a>&MediumSpace;|</font>
     <font size="4"><a href="https://beta.prts.tech">Go to site</a></font>
+  </li>
+  <li display="inline">
+    <font size="4">Endfield</font>
+    <img src="./img/beta-badge.png" height="16" style="transform: translateY(1px)">
+    <font size="4"><i>(Current)</i>&MediumSpace;|</font>
+    <font size="4"><a href="https://github.com/sayuriu/endfield">Latest branch</a>&MediumSpace;|</font>
+    <font size="4"><a href="https://endfield.prts.tech">Go to site</a></font>
   </li>
   <li display="inline">
     <font size="4">Sayumi</font>
